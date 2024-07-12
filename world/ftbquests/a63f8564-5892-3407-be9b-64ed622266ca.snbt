@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "a63f856458923407be9b64ed622266ca"
+	name: "AbuelitoSenxual#a63f8564"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		0470194500CBE26C: 1
+	}
+	started: {
+		1D4E5CDD59FFB7A0: 1720771367351L
+		2574E7CF699D5B45: 1720771367351L
+		0470194500CBE26C: 1720771367351L
+		0000000000000001: 1720771367351L
+	}
+	completed: {
+		2574E7CF699D5B45: 1720771367355L
+		0470194500CBE26C: 1720771367355L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}

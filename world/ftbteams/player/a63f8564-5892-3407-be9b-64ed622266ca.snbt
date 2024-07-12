@@ -1,0 +1,17 @@
+{
+	id: "a63f8564-5892-3407-be9b-64ed622266ca"
+	type: "player"
+	player_name: "AbuelitoSenxual"
+	ranks: {
+		a63f8564-5892-3407-be9b-64ed622266ca: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "AbuelitoSenxual"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFC159"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
