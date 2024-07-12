@@ -29,7 +29,7 @@ commit_changes() {
 # Función para iniciar el servidor de Minecraft
 start_server() {
     echo "Iniciando el servidor de Minecraft..."
-    nohup $START_SCRIPT &
+    $START_SCRIPT 
 }
 
 # Ejecutar las funciones
