@@ -1,0 +1,17 @@
+{
+	id: "564797b0-bc60-4c9d-80d6-6a5ba72ecba9"
+	type: "player"
+	player_name: "Floodwer013"
+	ranks: {
+		564797b0-bc60-4c9d-80d6-6a5ba72ecba9: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Floodwer013"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59C7"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "564797b0bc604c9d80d66a5ba72ecba9"
+	name: "Floodwer013#564797b0"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
