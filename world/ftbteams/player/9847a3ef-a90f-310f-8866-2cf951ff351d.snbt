@@ -1,0 +1,15 @@
+{
+	id: "9847a3ef-a90f-310f-8866-2cf951ff351d"
+	type: "player"
+	player_name: "Laborin"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Laborin"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFEF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

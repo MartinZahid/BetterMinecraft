@@ -1,0 +1,17 @@
+{
+	id: "36294b2f-4ee1-3f07-87ea-36b315cd764e"
+	type: "player"
+	player_name: "OnlyVhill"
+	ranks: {
+		36294b2f-4ee1-3f07-87ea-36b315cd764e: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "OnlyVhill"
+		"ftbteams:description": ""
+		"ftbteams:color": "#C759FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

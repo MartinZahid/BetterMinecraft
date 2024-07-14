@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "fa8e3cc087233ec0b28c76534b3cb3a5"
+	name: "xdss#fa8e3cc0"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		0470194500CBE26C: 1
+	}
+	started: {
+		1D4E5CDD59FFB7A0: 1720839126281L
+		2574E7CF699D5B45: 1720839126281L
+		0470194500CBE26C: 1720839126281L
+		0000000000000001: 1720839126281L
+	}
+	completed: {
+		2574E7CF699D5B45: 1720839126281L
+		0470194500CBE26C: 1720839126281L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}

@@ -1,0 +1,17 @@
+{
+	id: "457eec88-d63b-412f-b3d3-2e66591b3d00"
+	type: "party"
+	owner: "9d9c0f8f-995c-3984-9732-80ce26b31cb1"
+	ranks: {
+		9d9c0f8f-995c-3984-9732-80ce26b31cb1: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Pelones"
+		"ftbteams:description": "xd"
+		"ftbteams:color": "#C759FF"
+		"ftbteams:free_to_join": 1b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [{ from: "00000000-0000-0000-0000-000000000000", date: 1720847500855L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Floodwer013\"}]}" }]
+	extra: { }
+}

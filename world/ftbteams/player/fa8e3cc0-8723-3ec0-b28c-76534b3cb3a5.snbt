@@ -1,0 +1,17 @@
+{
+	id: "fa8e3cc0-8723-3ec0-b28c-76534b3cb3a5"
+	type: "player"
+	player_name: "xdss"
+	ranks: {
+		fa8e3cc0-8723-3ec0-b28c-76534b3cb3a5: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "xdss"
+		"ftbteams:description": ""
+		"ftbteams:color": "#8EFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

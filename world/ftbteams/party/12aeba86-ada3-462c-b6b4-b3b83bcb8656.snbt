@@ -1,0 +1,17 @@
+{
+	id: "12aeba86-ada3-462c-b6b4-b3b83bcb8656"
+	type: "party"
+	owner: "9847a3ef-a90f-310f-8866-2cf951ff351d"
+	ranks: {
+		9847a3ef-a90f-310f-8866-2cf951ff351d: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Laborin's Party"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFEF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [{ from: "00000000-0000-0000-0000-000000000000", date: 1720849451432L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Laborin\"}]}" }]
+	extra: { }
+}
