@@ -1,0 +1,17 @@
+{
+	id: "efd7e752-6d38-4632-9b1a-939798569a1d"
+	type: "party"
+	owner: "36294b2f-4ee1-3f07-87ea-36b315cd764e"
+	ranks: {
+		36294b2f-4ee1-3f07-87ea-36b315cd764e: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "papus"
+		"ftbteams:description": ""
+		"ftbteams:color": "#C759FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [{ from: "00000000-0000-0000-0000-000000000000", date: 1721112515599L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"OnlyVhill\"}]}" }]
+	extra: { }
+}

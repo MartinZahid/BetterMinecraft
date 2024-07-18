@@ -2,9 +2,7 @@
 	id: "36294b2f-4ee1-3f07-87ea-36b315cd764e"
 	type: "player"
 	player_name: "OnlyVhill"
-	ranks: {
-		36294b2f-4ee1-3f07-87ea-36b315cd764e: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "OnlyVhill"
 		"ftbteams:description": ""
