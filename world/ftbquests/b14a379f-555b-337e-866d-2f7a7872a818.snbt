@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "b14a379f555b337e866d2f7a7872a818"
+	name: "josebolillo#b14a379f"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		0470194500CBE26C: 1
+	}
+	started: {
+		1D4E5CDD59FFB7A0: 1721360818994L
+		2574E7CF699D5B45: 1721360818994L
+		0470194500CBE26C: 1721360818994L
+		0000000000000001: 1721360818994L
+	}
+	completed: {
+		2574E7CF699D5B45: 1721360819001L
+		0470194500CBE26C: 1721360819001L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}

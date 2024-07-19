@@ -2070,6 +2070,7 @@
       "minecraft:ghast": "2024-07-18 00:56:47 +0000",
       "minecraft:hoglin": "2024-07-14 23:24:37 +0000",
       "minecraft:vindicator": "2024-07-14 21:49:29 +0000",
+      "minecraft:magma_cube": "2024-07-18 18:39:53 +0000",
       "minecraft:spider": "2024-07-14 04:31:21 +0000",
       "minecraft:piglin_brute": "2024-07-17 06:09:52 +0000",
       "minecraft:creeper": "2024-07-14 05:48:33 +0000",
@@ -13342,15 +13343,93 @@
     },
     "done": true
   },
-  "aether:recipes/combat/netherite_sword_repairing": {
+  "quark:overlevel_enchant": {
     "criteria": {
-      "has_netherite_sword": "2024-07-18 06:40:25 +0000"
+      "overlevel_enchant": "2024-07-18 04:01:26 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/skunk": {
+    "criteria": {
+      "ex": "2024-07-18 04:10:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-07-18 04:23:24 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/compacted_dripstone": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-07-18 04:23:24 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/dripstone_pillar_trim": {
+    "criteria": {
+      "has_dripstone_pillar_trim": "2024-07-18 04:28:17 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/dripstone_corner_trim": {
+    "criteria": {
+      "has_dripstone_corner_trim": "2024-07-18 04:28:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2024-07-18 05:31:34 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_leggings_repairing": {
+    "criteria": {
+      "has_netherite_leggings": "2024-07-18 05:34:20 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_boots_repairing": {
+    "criteria": {
+      "has_netherite_boots": "2024-07-18 05:34:21 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_chestplate_repairing": {
+    "criteria": {
+      "has_netherite_chestplate": "2024-07-18 05:34:23 +0000"
     },
     "done": true
   },
   "minecraft:recipes/misc/emerald": {
     "criteria": {
       "has_emerald_block": "2024-07-18 05:42:17 +0000"
+    },
+    "done": true
+  },
+  "cuisinedelight:recipes/misc/cuisine_skillet": {
+    "criteria": {
+      "has_skillet": "2024-07-18 06:25:12 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_pickaxe_repairing": {
+    "criteria": {
+      "has_golden_pickaxe": "2024-07-18 06:25:41 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_sword_repairing": {
+    "criteria": {
+      "has_netherite_sword": "2024-07-18 06:40:25 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/netherite_pickaxe_repairing": {
+    "criteria": {
+      "has_netherite_pickaxe": "2024-07-18 06:40:27 +0000"
     },
     "done": true
   },
@@ -13366,21 +13445,9 @@
     },
     "done": true
   },
-  "handcrafted:recipes/misc/dripstone_pillar_trim": {
-    "criteria": {
-      "has_dripstone_pillar_trim": "2024-07-18 04:28:17 +0000"
-    },
-    "done": true
-  },
   "twilightforest:recipes/decorations/wood/canopy_fence": {
     "criteria": {
       "has_item": "2024-07-18 07:40:17 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/netherite_pickaxe_repairing": {
-    "criteria": {
-      "has_netherite_pickaxe": "2024-07-18 06:40:27 +0000"
     },
     "done": true
   },
@@ -13450,33 +13517,15 @@
     },
     "done": true
   },
-  "quark:overlevel_enchant": {
-    "criteria": {
-      "overlevel_enchant": "2024-07-18 04:01:26 +0000"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/faf/twilightforest/canopy_beehive": {
     "criteria": {
       "has_planks": "2024-07-18 07:40:17 +0000"
     },
     "done": true
   },
-  "handcrafted:recipes/misc/dripstone_corner_trim": {
-    "criteria": {
-      "has_dripstone_corner_trim": "2024-07-18 04:28:17 +0000"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/af/twilightforest/canopy_drawer": {
     "criteria": {
       "has_planks": "2024-07-18 07:40:17 +0000"
-    },
-    "done": true
-  },
-  "cuisinedelight:recipes/misc/cuisine_skillet": {
-    "criteria": {
-      "has_skillet": "2024-07-18 06:25:12 +0000"
     },
     "done": true
   },
@@ -13495,12 +13544,6 @@
   "everycomp:recipes/decorations/af/twilightforest/canopy_bench": {
     "criteria": {
       "has_planks": "2024-07-18 07:40:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dripstone_block": {
-    "criteria": {
-      "has_pointed_dripstone": "2024-07-18 04:23:24 +0000"
     },
     "done": true
   },
@@ -13540,33 +13583,9 @@
     },
     "done": true
   },
-  "twigs:recipes/compacted_dripstone": {
-    "criteria": {
-      "has_pointed_dripstone": "2024-07-18 04:23:24 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/golden_pickaxe_repairing": {
-    "criteria": {
-      "has_golden_pickaxe": "2024-07-18 06:25:41 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/netherite_boots_repairing": {
-    "criteria": {
-      "has_netherite_boots": "2024-07-18 05:34:21 +0000"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/af/twilightforest/canopy_table": {
     "criteria": {
       "has_planks": "2024-07-18 07:40:17 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/netherite_chestplate_repairing": {
-    "criteria": {
-      "has_netherite_chestplate": "2024-07-18 05:34:23 +0000"
     },
     "done": true
   },
@@ -13582,33 +13601,15 @@
     },
     "done": true
   },
-  "quark:get_all_blossom_saplings": {
-    "criteria": {
-      "blue": "2024-07-18 07:46:59 +0000"
-    },
-    "done": false
-  },
   "everycomp:recipes/decorations/fd/twilightforest/canopy_cabinet": {
     "criteria": {
       "has_planks": "2024-07-18 07:40:17 +0000"
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/skunk": {
-    "criteria": {
-      "ex": "2024-07-18 04:10:32 +0000"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/hnhome/twilightforest/canopy_trim": {
     "criteria": {
       "has_planks": "2024-07-18 07:40:17 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/netherite_leggings_repairing": {
-    "criteria": {
-      "has_netherite_leggings": "2024-07-18 05:34:20 +0000"
     },
     "done": true
   },
@@ -13660,12 +13661,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/lapis_lazuli": {
-    "criteria": {
-      "has_lapis_block": "2024-07-18 05:31:34 +0000"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/bp/twilightforest/canopy_backpack_shelf": {
     "criteria": {
       "has_planks": "2024-07-18 07:40:17 +0000"
@@ -13677,6 +13672,54 @@
       "has_planks": "2024-07-18 07:40:17 +0000"
     },
     "done": true
+  },
+  "quark:get_all_blossom_saplings": {
+    "criteria": {
+      "blue": "2024-07-18 07:46:59 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_slab_from_red_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_red_nether_bricks": "2024-07-18 18:41:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_slab": {
+    "criteria": {
+      "has_red_nether_bricks": "2024-07-18 18:41:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_nether_brick_wall": {
+    "criteria": {
+      "has_red_nether_bricks": "2024-07-18 18:41:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_stairs_from_red_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_red_nether_bricks": "2024-07-18 18:41:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_stairs": {
+    "criteria": {
+      "has_red_nether_bricks": "2024-07-18 18:41:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_nether_brick_wall_from_red_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_red_nether_bricks": "2024-07-18 18:41:29 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_piglins": {
+    "criteria": {
+      "nova_structures:piglin_camp": "2024-07-18 18:42:41 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
