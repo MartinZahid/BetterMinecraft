@@ -2122,6 +2122,7 @@
       "minecraft:enderman": "2024-07-14 03:46:21 +0000",
       "minecraft:silverfish": "2024-07-14 07:13:17 +0000",
       "minecraft:stray": "2024-07-22 06:29:57 +0000",
+      "minecraft:endermite": "2024-07-25 00:20:14 +0000",
       "minecraft:vex": "2024-07-16 06:08:41 +0000",
       "minecraft:zombie": "2024-07-14 02:50:54 +0000",
       "quark:foxhound": "2024-07-15 10:10:20 +0000",
@@ -5782,6 +5783,7 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "chorus_flower": "2024-07-25 00:20:49 +0000",
       "sugar_cane": "2024-07-14 05:57:50 +0000",
       "potato": "2024-07-15 05:38:19 +0000",
       "red_mushroom": "2024-07-22 07:01:31 +0000",
@@ -7523,6 +7525,7 @@
   },
   "repurposed_structures:mineshafts": {
     "criteria": {
+      "in_mineshaft_end": "2024-07-25 00:19:14 +0000",
       "in_mineshaft_crimson": "2024-07-14 20:06:38 +0000",
       "in_mineshaft_nether": "2024-07-18 06:24:08 +0000"
     },
@@ -9655,6 +9658,7 @@
       "canopy_sapling": "2024-07-15 02:42:46 +0000",
       "twilight_oak_log": "2024-07-15 02:12:32 +0000",
       "twilight_oak_wood": "2024-07-15 02:15:45 +0000",
+      "dark_log": "2024-07-24 23:40:08 +0000",
       "twilight_oak_sapling": "2024-07-15 06:38:10 +0000",
       "twilight_oak_fence_gate": "2024-07-15 06:39:13 +0000",
       "canopy_log": "2024-07-15 02:42:45 +0000"
@@ -14081,9 +14085,10 @@
   },
   "twilightforest:progress_yeti": {
     "criteria": {
-      "previous_progression": "2024-07-19 20:55:27 +0000"
+      "previous_progression": "2024-07-19 20:55:27 +0000",
+      "yeti": "2024-07-22 19:23:37 +0000"
     },
-    "done": false
+    "done": true
   },
   "twilightforest:recipes/misc/lich_banner_pattern": {
     "criteria": {
@@ -14747,14 +14752,25 @@
   },
   "betterend:all_the_biomes": {
     "criteria": {
+      "betterend:crystal_mountains": "2024-07-25 00:16:30 +0000",
+      "betterend:dry_shrubland": "2024-07-25 00:15:06 +0000",
       "betterend:shadow_forest": "2024-07-20 03:01:34 +0000",
       "betterend:sulphur_springs": "2024-07-20 01:42:08 +0000",
       "betterend:painted_mountains": "2024-07-20 03:01:05 +0000",
+      "betterend:neon_oasis": "2024-07-25 00:15:04 +0000",
       "betterend:ice_starfield": "2024-07-20 01:33:06 +0000",
+      "betterend:dust_wastelands": "2024-07-25 00:15:02 +0000",
+      "betterend:foggy_mushroomland": "2024-07-25 00:26:24 +0000",
+      "betterend:empty_smaragdant_cave": "2024-07-25 00:21:20 +0000",
       "betterend:glowing_grasslands": "2024-07-20 01:26:41 +0000",
+      "betterend:lush_aurora_cave": "2024-07-25 00:19:15 +0000",
+      "betterend:jade_cave": "2024-07-25 00:21:14 +0000",
+      "betterend:dragon_graveyards": "2024-07-25 00:17:08 +0000",
       "betterend:umbra_valley": "2024-07-20 01:24:06 +0000",
       "betterend:chorus_forest": "2024-07-20 01:33:12 +0000",
-      "betterend:umbrella_jungle": "2024-07-20 01:47:28 +0000"
+      "betterend:umbrella_jungle": "2024-07-20 01:47:28 +0000",
+      "betterend:lush_smaragdant_cave": "2024-07-25 00:19:26 +0000",
+      "betterend:blossoming_spires": "2024-07-25 00:17:20 +0000"
     },
     "done": false
   },
@@ -14874,7 +14890,8 @@
   },
   "adorabuild_structures:like_a_feather": {
     "criteria": {
-      "end_house_medium_1": "2024-07-20 01:27:55 +0000"
+      "end_house_medium_1": "2024-07-20 01:27:55 +0000",
+      "end_house_medium_3": "2024-07-25 00:15:28 +0000"
     },
     "done": false
   },
@@ -14892,6 +14909,7 @@
   },
   "repurposed_structures:shipwrecks": {
     "criteria": {
+      "in_shipwreck_crimson": "2024-07-25 00:49:51 +0000",
       "in_shipwreck_end": "2024-07-20 01:28:28 +0000"
     },
     "done": false
@@ -15640,9 +15658,21 @@
     },
     "done": false
   },
-  "blue_skies:recipes/combat/bluebright_spear": {
+  "conjurer_illager:find_theatre": {
     "criteria": {
-      "has_item": "2024-07-22 06:10:50 +0000"
+      "in_theater": "2024-07-22 05:21:56 +0000"
+    },
+    "done": true
+  },
+  "illagerinvasion:recipes/misc/hallowed_gem": {
+    "criteria": {
+      "has_unusual_dust_and_illusionary_dust": "2024-07-22 05:23:30 +0000"
+    },
+    "done": true
+  },
+  "conjurer_illager:kill_conjurer": {
+    "criteria": {
+      "kill_conjurer": "2024-07-22 05:23:59 +0000"
     },
     "done": true
   },
@@ -15652,21 +15682,183 @@
     },
     "done": true
   },
-  "twigs:recipes/tables/crimson_table_slab": {
+  "supplementaries:adventure/way_sign": {
     "criteria": {
-      "has_bamboo": "2024-07-22 08:30:45 +0000"
+      "bastion": "2024-07-22 05:34:40 +0000"
     },
     "done": true
   },
-  "twigs:recipes/columns/quartz_column": {
+  "nova_structures:adventure/tavern_quest": {
     "criteria": {
-      "has_item": "2024-07-22 07:32:11 +0000"
+      "open_tavern_chest": "2024-07-22 05:57:11 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_poppy": {
+  "blue_skies:recipes/combat/bluebright_spear": {
     "criteria": {
-      "has_poppy": "2024-07-22 08:21:11 +0000"
+      "has_item": "2024-07-22 06:10:50 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/combat/dusk_spear": {
+    "criteria": {
+      "has_item": "2024-07-22 06:10:50 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/combat/comet_spear": {
+    "criteria": {
+      "has_item": "2024-07-22 06:10:50 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/tools/zeal_lighter": {
+    "criteria": {
+      "has_item": "2024-07-22 06:10:50 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/combat/maple_spear": {
+    "criteria": {
+      "has_item": "2024-07-22 06:10:50 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/combat/frostbright_spear": {
+    "criteria": {
+      "has_item": "2024-07-22 06:10:50 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/combat/lunar_spear": {
+    "criteria": {
+      "has_item": "2024-07-22 06:10:50 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/redstone/moonstone_pressure_plate": {
+    "criteria": {
+      "has_item": "2024-07-22 06:10:50 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/misc/moonstone_from_shard": {
+    "criteria": {
+      "has_item": "2024-07-22 06:10:50 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/combat/starlit_spear": {
+    "criteria": {
+      "has_item": "2024-07-22 06:10:50 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:get_moonstone_shard": {
+    "criteria": {
+      "obtain_moonstone_shard": "2024-07-22 06:10:50 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_umvuthi": {
+    "criteria": {
+      "barako": "2024-07-22 06:16:42 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:outposts": {
+    "criteria": {
+      "in_outpost_oak": "2024-07-22 06:23:00 +0000"
+    },
+    "done": false
+  },
+  "mowziesmobs:kill_frostmaw": {
+    "criteria": {
+      "frostmaw": "2024-07-22 06:33:01 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/banana_slug": {
+    "criteria": {
+      "killed": "2024-07-22 06:42:20 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_sunken_city": {
+    "criteria": {
+      "factory": "2024-07-22 06:48:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-07-22 06:55:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2024-07-22 06:55:58 +0000"
+    },
+    "done": true
+  },
+  "crabbersdelight:recipes/building_blocks/clam_barrel": {
+    "criteria": {
+      "has_clam": "2024-07-22 06:57:37 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_shovel_repairing": {
+    "criteria": {
+      "has_golden_shovel": "2024-07-22 06:58:54 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/soap/piston": {
+    "criteria": {
+      "has_sticky_piston": "2024-07-22 07:03:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2024-07-22 07:08:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2024-07-22 07:08:33 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/honey_cookie": {
+    "criteria": {
+      "has_honey_bottle": "2024-07-22 07:08:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2024-07-22 07:11:10 +0000"
+    },
+    "done": true
+  },
+  "crabbersdelight:recipes/building_blocks/nautilus_shell_block": {
+    "criteria": {
+      "has_nautilus_shell": "2024-07-22 07:16:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2024-07-22 07:16:33 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/stuffed_nautilus_shell": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-22 07:16:33 +0000"
     },
     "done": true
   },
@@ -15676,15 +15868,21 @@
     },
     "done": true
   },
-  "twilightforest:recipes/decorations/wood/crimson_banister": {
+  "stoneworks:recipes/building_blocks/quartz_plates_from_quartz_block_stonecutting": {
     "criteria": {
-      "has_item": "2024-07-22 08:30:45 +0000"
+      "has_quartz_block": "2024-07-22 07:32:10 +0000"
     },
     "done": true
   },
-  "conjurer_illager:find_theatre": {
+  "stoneworks:recipes/building_blocks/quartz_tile_stairs_from_quartz_block_stonecutting": {
     "criteria": {
-      "in_theater": "2024-07-22 05:21:56 +0000"
+      "has_quartz_block": "2024-07-22 07:32:10 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/columns/quartz_column": {
+    "criteria": {
+      "has_item": "2024-07-22 07:32:11 +0000"
     },
     "done": true
   },
@@ -15724,63 +15922,15 @@
     },
     "done": true
   },
-  "illagerinvasion:recipes/misc/hallowed_gem": {
-    "criteria": {
-      "has_unusual_dust_and_illusionary_dust": "2024-07-22 05:23:30 +0000"
-    },
-    "done": true
-  },
-  "repurposed_structures:outposts": {
-    "criteria": {
-      "in_outpost_oak": "2024-07-22 06:23:00 +0000"
-    },
-    "done": false
-  },
-  "blue_skies:recipes/combat/dusk_spear": {
-    "criteria": {
-      "has_item": "2024-07-22 06:10:50 +0000"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/quartz_pillar_trim": {
     "criteria": {
       "has_quartz_pillar_trim": "2024-07-22 07:32:11 +0000"
     },
     "done": true
   },
-  "cataclysm:find_sunken_city": {
-    "criteria": {
-      "factory": "2024-07-22 06:48:09 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-07-22 07:32:11 +0000"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/crimson_bench": {
-    "criteria": {
-      "has_slab": "2024-07-22 08:30:45 +0000"
-    },
-    "done": true
-  },
-  "crabbersdelight:recipes/building_blocks/nautilus_shell_block": {
-    "criteria": {
-      "has_nautilus_shell": "2024-07-22 07:16:33 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/combat/comet_spear": {
-    "criteria": {
-      "has_item": "2024-07-22 06:10:50 +0000"
-    },
-    "done": true
-  },
-  "crabbersdelight:recipes/building_blocks/clam_barrel": {
-    "criteria": {
-      "has_clam": "2024-07-22 06:57:37 +0000"
     },
     "done": true
   },
@@ -15796,39 +15946,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/sugar_from_honey_bottle": {
-    "criteria": {
-      "has_honey_bottle": "2024-07-22 07:08:33 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/quartz_pillar": {
     "criteria": {
       "has_quartz_block": "2024-07-22 07:32:11 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/honey_block": {
-    "criteria": {
-      "has_honey_bottle": "2024-07-22 07:08:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2024-07-22 06:55:58 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/quartz_tile_slab_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-07-22 07:32:11 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/tools/zeal_lighter": {
-    "criteria": {
-      "has_item": "2024-07-22 06:10:50 +0000"
     },
     "done": true
   },
@@ -15841,24 +15967,6 @@
   "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-07-22 07:32:11 +0000"
-    },
-    "done": true
-  },
-  "nova_structures:adventure/tavern_quest": {
-    "criteria": {
-      "open_tavern_chest": "2024-07-22 05:57:11 +0000"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/crimson_shutter": {
-    "criteria": {
-      "has_slab": "2024-07-22 08:30:45 +0000"
-    },
-    "done": true
-  },
-  "mowziesmobs:kill_umvuthi": {
-    "criteria": {
-      "barako": "2024-07-22 06:16:42 +0000"
     },
     "done": true
   },
@@ -15892,27 +16000,9 @@
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/banana_slug": {
-    "criteria": {
-      "killed": "2024-07-22 06:42:20 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/cracked_quartz_bricks_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-07-22 07:32:11 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/combat/maple_spear": {
-    "criteria": {
-      "has_item": "2024-07-22 06:10:50 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/quartz_plates_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2024-07-22 07:32:10 +0000"
     },
     "done": true
   },
@@ -15928,63 +16018,9 @@
     },
     "done": true
   },
-  "blue_skies:recipes/combat/frostbright_spear": {
-    "criteria": {
-      "has_item": "2024-07-22 06:10:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/conduit": {
-    "criteria": {
-      "has_nautilus_shell": "2024-07-22 07:16:33 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/combat/lunar_spear": {
-    "criteria": {
-      "has_item": "2024-07-22 06:10:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/repeater": {
-    "criteria": {
-      "has_redstone_torch": "2024-07-22 07:11:10 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/redstone/moonstone_pressure_plate": {
-    "criteria": {
-      "has_item": "2024-07-22 06:10:50 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:adventure/way_sign": {
-    "criteria": {
-      "bastion": "2024-07-22 05:34:40 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/soap/piston": {
-    "criteria": {
-      "has_sticky_piston": "2024-07-22 07:03:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
-    "criteria": {
-      "has_coast_armor_trim_smithing_template": "2024-07-22 06:55:58 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/mossy_cobbled_quartz_wall_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-07-22 07:32:11 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/misc/moonstone_from_shard": {
-    "criteria": {
-      "has_item": "2024-07-22 06:10:50 +0000"
     },
     "done": true
   },
@@ -16012,30 +16048,6 @@
     },
     "done": true
   },
-  "blue_skies:recipes/combat/starlit_spear": {
-    "criteria": {
-      "has_item": "2024-07-22 06:10:50 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/golden_shovel_repairing": {
-    "criteria": {
-      "has_golden_shovel": "2024-07-22 06:58:54 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/honey_cookie": {
-    "criteria": {
-      "has_honey_bottle": "2024-07-22 07:08:33 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:get_moonstone_shard": {
-    "criteria": {
-      "obtain_moonstone_shard": "2024-07-22 06:10:50 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/cobbled_quartz_stairs_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-07-22 07:32:11 +0000"
@@ -16051,12 +16063,6 @@
   "handcrafted:recipes/misc/quartz_corner_trim": {
     "criteria": {
       "has_quartz_corner_trim": "2024-07-22 07:32:11 +0000"
-    },
-    "done": true
-  },
-  "conjurer_illager:kill_conjurer": {
-    "criteria": {
-      "kill_conjurer": "2024-07-22 05:23:59 +0000"
     },
     "done": true
   },
@@ -16078,21 +16084,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/stuffed_nautilus_shell": {
-    "criteria": {
-      "has_any_ingredient": "2024-07-22 07:16:33 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/quartz_shingle_wall_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-07-22 07:32:11 +0000"
-    },
-    "done": true
-  },
-  "mowziesmobs:kill_frostmaw": {
-    "criteria": {
-      "frostmaw": "2024-07-22 06:33:01 +0000"
     },
     "done": true
   },
@@ -16144,18 +16138,6 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/quartz_tile_stairs_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2024-07-22 07:32:10 +0000"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/crimson_flower_box": {
-    "criteria": {
-      "has_slab": "2024-07-22 08:30:45 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/quartz_tiles_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-07-22 07:32:11 +0000"
@@ -16171,6 +16153,432 @@
   "stoneworks:recipes/building_blocks/polished_quartz_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-07-22 07:32:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2024-07-22 08:21:11 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/crimson_table_slab": {
+    "criteria": {
+      "has_bamboo": "2024-07-22 08:30:45 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/crimson_banister": {
+    "criteria": {
+      "has_item": "2024-07-22 08:30:45 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/crimson_bench": {
+    "criteria": {
+      "has_slab": "2024-07-22 08:30:45 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/crimson_shutter": {
+    "criteria": {
+      "has_slab": "2024-07-22 08:30:45 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/crimson_flower_box": {
+    "criteria": {
+      "has_slab": "2024-07-22 08:30:45 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_glacier": {
+    "criteria": {
+      "previous_progression": "2024-07-22 19:23:37 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/misc/alpha_yeti_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2024-07-22 19:23:56 +0000"
+    },
+    "done": true
+  },
+  "umbral_skies:recipes/combat/yeti_gloves": {
+    "criteria": {
+      "has_item": "2024-07-22 19:23:57 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/glacier_ice_tea": {
+    "criteria": {
+      "has_ice_bomb": "2024-07-22 19:23:58 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/refreshing_ice_cream": {
+    "criteria": {
+      "has_ice_bomb": "2024-07-22 19:23:58 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/aurora_pie": {
+    "criteria": {
+      "has_aurora_block": "2024-07-22 19:28:45 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/aurora_slab_slab": {
+    "criteria": {
+      "has_item": "2024-07-22 19:28:45 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/rainbow_ice_cream": {
+    "criteria": {
+      "has_aurora_block": "2024-07-22 19:28:45 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/ironwood_block": {
+    "criteria": {
+      "has_item": "2024-07-22 19:29:55 +0000"
+    },
+    "done": true
+  },
+  "umbral_skies:recipes/combat/ironwood_gloves": {
+    "criteria": {
+      "has_item": "2024-07-22 19:29:55 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/misc/ironwood_knife": {
+    "criteria": {
+      "has_ironwood_ingot": "2024-07-22 19:29:55 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/chocolate_wafer": {
+    "criteria": {
+      "has_maze_wafer": "2024-07-22 19:29:57 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/tools/charm_of_keeping_2": {
+    "criteria": {
+      "has_item": "2024-07-22 19:30:03 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/birch_banister": {
+    "criteria": {
+      "has_item": "2024-07-22 19:36:03 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/birch_flower_box": {
+    "criteria": {
+      "has_slab": "2024-07-22 19:36:03 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/birch_shutter": {
+    "criteria": {
+      "has_slab": "2024-07-22 19:36:03 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/birch_bench": {
+    "criteria": {
+      "has_slab": "2024-07-22 19:36:03 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/birch_table_slab": {
+    "criteria": {
+      "has_bamboo": "2024-07-22 19:36:03 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/maze_stone/smelted_maze_stone_cracked": {
+    "criteria": {
+      "has_item": "2024-07-22 19:42:58 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/maze_stone/mossy_mazestone": {
+    "criteria": {
+      "has_item": "2024-07-22 19:42:58 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/uncrafting_table": {
+    "criteria": {
+      "has_uncrafting_table": "2024-07-22 19:50:34 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/vanilla_to_tf_moss": {
+    "criteria": {
+      "has_item": "2024-07-22 19:53:23 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/tf_moss_to_vanilla": {
+    "criteria": {
+      "has_item": "2024-07-22 19:53:23 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/vanilla_to_tf_lilypad": {
+    "criteria": {
+      "has_item": "2024-07-22 19:53:23 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/tf_to_vanilla_lilypad": {
+    "criteria": {
+      "has_item": "2024-07-22 19:53:23 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_hoe_repairing": {
+    "criteria": {
+      "has_diamond_hoe": "2024-07-24 06:13:11 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/azalea_flowers_from_flowering_azalea": {
+    "criteria": {
+      "has_item": "2024-07-24 23:31:51 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/azalea_flowers_from_flowering_azalea_leaves": {
+    "criteria": {
+      "has_the_recipe": "2024-07-24 23:31:51 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/dark_wood": {
+    "criteria": {
+      "has_item": "2024-07-24 23:40:08 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/dark_planks": {
+    "criteria": {
+      "has_item": "2024-07-24 23:40:08 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_slab": {
+    "criteria": {
+      "has_virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_bricks": {
+    "criteria": {
+      "has_virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_button": {
+    "criteria": {
+      "has_virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_polished_stonecutting": {
+    "criteria": {
+      "has_block.betterend.virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_wall": {
+    "criteria": {
+      "has_virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_tiles_stonecutting": {
+    "criteria": {
+      "has_block.betterend.virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_brick_stair_stonecutting": {
+    "criteria": {
+      "has_block.betterend.virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_brick_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_pressure_plate": {
+    "criteria": {
+      "has_virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_furnace": {
+    "criteria": {
+      "has_virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_stairs_stonecutting": {
+    "criteria": {
+      "has_block.betterend.virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_pillar_stonecutting": {
+    "criteria": {
+      "has_block.betterend.virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_stairs": {
+    "criteria": {
+      "has_virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_brick_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_bricks_stonecutting": {
+    "criteria": {
+      "has_block.betterend.virid_jadestone": "2024-07-25 00:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_bricks_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_polished_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_stairs_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_brick_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_furnace": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_wall": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_stairs": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_pressure_plate": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_brick_stair_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_tiles_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_button": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_slab": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_brick_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_pillar_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_bricks": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-07-25 00:21:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2024-07-25 00:21:32 +0000"
     },
     "done": true
   },

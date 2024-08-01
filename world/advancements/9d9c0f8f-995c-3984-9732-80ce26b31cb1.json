@@ -391,12 +391,15 @@
       "minecraft:blaze": "2024-07-14 04:23:35 +0000",
       "minecraft:pillager": "2024-07-17 04:50:38 +0000",
       "minecraft:skeleton": "2024-07-13 03:37:23 +0000",
+      "minecraft:zoglin": "2024-07-28 00:28:31 +0000",
+      "minecraft:ghast": "2024-07-26 06:40:46 +0000",
       "minecraft:hoglin": "2024-07-14 04:04:35 +0000",
       "minecraft:vindicator": "2024-07-17 02:03:26 +0000",
       "minecraft:magma_cube": "2024-07-14 04:58:01 +0000",
       "minecraft:spider": "2024-07-13 03:21:33 +0000",
       "minecraft:piglin_brute": "2024-07-14 05:42:15 +0000",
       "minecraft:creeper": "2024-07-13 05:34:39 +0000",
+      "minecraft:wither": "2024-07-28 00:44:38 +0000",
       "minecraft:evoker": "2024-07-17 04:51:36 +0000",
       "quark:forgotten": "2024-07-13 08:02:06 +0000",
       "minecraft:phantom": "2024-07-17 05:34:06 +0000",
@@ -407,6 +410,7 @@
       "minecraft:ender_dragon": "2024-07-20 01:18:05 +0000",
       "minecraft:shulker": "2024-07-20 02:08:17 +0000",
       "minecraft:cave_spider": "2024-07-18 02:00:20 +0000",
+      "quark:wraith": "2024-07-27 02:56:16 +0000",
       "minecraft:piglin": "2024-07-14 02:35:08 +0000",
       "minecraft:stray": "2024-07-13 03:02:49 +0000",
       "minecraft:enderman": "2024-07-15 08:32:31 +0000",
@@ -485,7 +489,9 @@
       "volcanic_plains": "2024-07-18 02:12:21 +0000",
       "lavender_field": "2024-07-18 03:19:59 +0000",
       "fir_clearing": "2024-07-13 05:51:49 +0000",
+      "pumpkin_patch": "2024-07-28 00:42:45 +0000",
       "grassland": "2024-07-19 06:52:15 +0000",
+      "prairie": "2024-07-28 00:49:00 +0000",
       "snowy_coniferous_forest": "2024-07-16 08:31:11 +0000",
       "snowy_fir_clearing": "2024-07-16 08:31:13 +0000",
       "tundra": "2024-07-16 06:26:03 +0000",
@@ -6637,6 +6643,7 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "sweet_berries": "2024-07-18 04:26:59 +0000",
+      "brown_mushroom": "2024-07-26 07:15:46 +0000",
       "sugar_cane": "2024-07-13 06:24:45 +0000",
       "potato": "2024-07-13 07:08:22 +0000",
       "red_mushroom": "2024-07-14 06:43:43 +0000",
@@ -10275,11 +10282,13 @@
   "deep_aether:explore_aether": {
     "criteria": {
       "aether:skyroot_grove": "2024-07-14 20:38:18 +0000",
+      "aether:skyroot_woodland": "2024-07-27 00:40:10 +0000",
       "deep_aether:aerglow_forest": "2024-07-21 23:57:10 +0000",
       "deep_aether:mystic_aerglow_forest": "2024-07-21 23:57:01 +0000",
       "aether:skyroot_meadow": "2024-07-14 20:40:01 +0000",
       "aether:skyroot_forest": "2024-07-14 22:31:11 +0000",
       "deep_aether:aerlavender_fields": "2024-07-14 20:48:44 +0000",
+      "deep_aether:yagroot_swamp": "2024-07-27 21:48:05 +0000",
       "deep_aether:golden_heights": "2024-07-14 23:08:18 +0000"
     },
     "done": false
@@ -11733,6 +11742,7 @@
       "dark_log": "2024-07-22 03:38:22 +0000",
       "canopy_stairs": "2024-07-18 04:16:45 +0000",
       "twilight_oak_sapling": "2024-07-15 02:23:33 +0000",
+      "giant_log": "2024-07-26 05:22:00 +0000",
       "canopy_log": "2024-07-15 02:09:48 +0000"
     },
     "done": false
@@ -17948,12 +17958,14 @@
   "adorabuild_structures:fireproof": {
     "criteria": {
       "nether_temple_medium_1": "2024-07-22 02:44:18 +0000",
+      "blackstone_bastion_medium_1": "2024-07-24 05:45:32 +0000",
       "blackstone_bastion_small_1": "2024-07-22 01:27:20 +0000"
     },
     "done": false
   },
   "repurposed_structures:temples": {
     "criteria": {
+      "in_temple_nether_wasteland": "2024-07-26 06:02:34 +0000",
       "in_temple_nether_warped": "2024-07-22 02:36:15 +0000"
     },
     "done": false
@@ -19034,62 +19046,6 @@
     },
     "done": true
   },
-  "twilightdelight:recipes/cooking/fiery_snakes_block": {
-    "criteria": {
-      "has_fiery_blood": "2024-07-22 06:53:06 +0000"
-    },
-    "done": true
-  },
-  "twilightforest:progress_troll": {
-    "criteria": {
-      "previous_progression": "2024-07-22 06:52:49 +0000",
-      "lamp": "2024-07-22 08:18:41 +0000"
-    },
-    "done": true
-  },
-  "cataclysm:find_sunken_city": {
-    "criteria": {
-      "factory": "2024-07-22 07:03:38 +0000"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/minoshroom_banner_pattern": {
-    "criteria": {
-      "has_trophy": "2024-07-22 06:40:20 +0000"
-    },
-    "done": true
-  },
-  "twilightforest:troll": {
-    "criteria": {
-      "troll": "2024-07-22 08:06:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/trapped_chest": {
-    "criteria": {
-      "has_tripwire_hook": "2024-07-22 06:44:40 +0000"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/food/hydra_burger": {
-    "criteria": {
-      "has_hydra_chop": "2024-07-22 06:53:06 +0000"
-    },
-    "done": true
-  },
-  "twilightforest:beanstalk": {
-    "criteria": {
-      "beans": "2024-07-22 08:09:22 +0000",
-      "use_beans": "2024-07-22 08:12:11 +0000"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/hydra_banner_pattern": {
-    "criteria": {
-      "has_trophy": "2024-07-22 06:53:06 +0000"
-    },
-    "done": true
-  },
   "twilightforest:recipes/building_blocks/maze_stone/mossy_mazestone": {
     "criteria": {
       "has_item": "2024-07-22 06:36:52 +0000"
@@ -19103,10 +19059,79 @@
     },
     "done": true
   },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2024-07-22 06:39:55 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/minoshroom_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2024-07-22 06:40:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2024-07-22 06:44:40 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_troll": {
+    "criteria": {
+      "previous_progression": "2024-07-22 06:52:49 +0000",
+      "lamp": "2024-07-22 08:18:41 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/cooking/fiery_snakes_block": {
+    "criteria": {
+      "has_fiery_blood": "2024-07-22 06:53:06 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/hydra_burger": {
+    "criteria": {
+      "has_hydra_chop": "2024-07-22 06:53:06 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/hydra_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2024-07-22 06:53:06 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_sunken_city": {
+    "criteria": {
+      "factory": "2024-07-22 07:03:38 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:troll": {
+    "criteria": {
+      "troll": "2024-07-22 08:06:59 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:beanstalk": {
+    "criteria": {
+      "beans": "2024-07-22 08:09:22 +0000",
+      "use_beans": "2024-07-22 08:12:11 +0000"
+    },
+    "done": true
+  },
   "twilightforest:giants": {
     "criteria": {
       "pickaxe": "2024-07-22 08:09:22 +0000",
       "giant": "2024-07-22 08:14:42 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progression_end": {
+    "criteria": {
+      "previous_progression": "2024-07-22 08:18:41 +0000",
+      "plateau": "2024-07-26 05:38:28 +0000"
     },
     "done": true
   },
@@ -19116,17 +19141,606 @@
     },
     "done": true
   },
-  "farmersdelight:main/eat_nourishing_food": {
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
     "criteria": {
-      "nourishment": "2024-07-22 06:39:55 +0000"
+      "has_warped_fungus": "2024-07-24 03:21:30 +0000"
     },
     "done": true
   },
-  "twilightforest:progression_end": {
+  "repurposed_structures:ruins": {
     "criteria": {
-      "previous_progression": "2024-07-22 08:18:41 +0000"
+      "in_ruins_nether": "2024-07-24 05:41:17 +0000"
     },
     "done": false
+  },
+  "decorative_blocks:recipes/building_blocks/warped_palisade": {
+    "criteria": {
+      "has_log": "2024-07-24 05:49:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2024-07-24 05:49:39 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/giant_cobblestone_to_cobblestone": {
+    "criteria": {
+      "has_item": "2024-07-26 05:20:58 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/tools/equipment/giant_pickaxe": {
+    "criteria": {
+      "has_item": "2024-07-26 05:20:58 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/tools/equipment/giant_sword": {
+    "criteria": {
+      "has_item": "2024-07-26 05:20:58 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/giant_log_to_oak_planks": {
+    "criteria": {
+      "has_item": "2024-07-26 05:22:00 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/cooking/mushgloom_sauce": {
+    "criteria": {
+      "has_mushgloom": "2024-07-26 05:35:13 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/cooking/glowstew": {
+    "criteria": {
+      "has_mushgloom": "2024-07-26 05:35:13 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/castleblock/smelted_cracked_castle_brick": {
+    "criteria": {
+      "has_item": "2024-07-26 05:53:16 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/castleblock/bold_castle_brick_pillar": {
+    "criteria": {
+      "has_castle_brick": "2024-07-26 05:53:16 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/castleblock/castle_brick_stairs": {
+    "criteria": {
+      "has_item": "2024-07-26 05:53:16 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/castleblock/encased_castle_pillar": {
+    "criteria": {
+      "has_castle_brick": "2024-07-26 05:53:16 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/castleblock/bold_castle_brick_tile": {
+    "criteria": {
+      "has_castle_brick": "2024-07-26 05:53:16 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/castleblock/mossy_castle_brick": {
+    "criteria": {
+      "has_item": "2024-07-26 05:53:16 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/castleblock/bold_castle_pillar_from_tile": {
+    "criteria": {
+      "has_castle_brick": "2024-07-26 05:53:16 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/castleblock/thick_castle_brick": {
+    "criteria": {
+      "has_castle_brick": "2024-07-26 05:53:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_glazed_terracotta": {
+    "criteria": {
+      "has_black_terracotta": "2024-07-26 06:03:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template": {
+    "criteria": {
+      "has_wild_armor_trim_smithing_template": "2024-07-26 06:04:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-07-26 06:04:02 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/straddler": {
+    "criteria": {
+      "killed_by": "2024-07-26 06:06:44 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/rose_quartz_block": {
+    "criteria": {
+      "has_rose_quartz_chunk": "2024-07-26 06:08:19 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/food/cooking/rock_candy": {
+    "criteria": {
+      "has_rose_quartz": "2024-07-26 06:08:19 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/straddle_saddle": {
+    "criteria": {
+      "straddleboard": "2024-07-26 06:09:49 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_piglins": {
+    "criteria": {
+      "nova_structures:piglin_camp": "2024-07-26 06:32:57 +0000",
+      "nova_structures:hamlet": "2024-07-27 03:03:09 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:outposts": {
+    "criteria": {
+      "in_outpost_nether_brick": "2024-07-26 06:40:14 +0000"
+    },
+    "done": false
+  },
+  "cataclysm:find_burning_arena": {
+    "criteria": {
+      "arena": "2024-07-26 06:52:44 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:kill_revenant": {
+    "criteria": {
+      "endergolem": "2024-07-26 07:05:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs": {
+    "criteria": {
+      "has_polished_blackstone": "2024-07-26 07:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-07-26 07:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_button": {
+    "criteria": {
+      "has_polished_blackstone": "2024-07-26 07:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab": {
+    "criteria": {
+      "has_polished_blackstone": "2024-07-26 07:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-07-26 07:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-07-26 07:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-07-26 07:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-07-26 07:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-07-26 07:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-07-26 07:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-07-26 07:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone": "2024-07-26 07:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_pressure_plate": {
+    "criteria": {
+      "has_polished_blackstone": "2024-07-26 07:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall": {
+    "criteria": {
+      "has_polished_blackstone": "2024-07-26 07:39:40 +0000"
+    },
+    "done": true
+  },
+  "lost_aether_content:platinum_dungeon": {
+    "criteria": {
+      "kill_boss": "2024-07-27 00:25:01 +0000"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/decorations/enchant_crystal_sapling": {
+    "criteria": {
+      "has_crystal_sapling": "2024-07-27 00:26:19 +0000"
+    },
+    "done": true
+  },
+  "lost_aether_content:recipes/misc/noble_armor_trim_smithing_template": {
+    "criteria": {
+      "has_noble_armor_trim_smithing_template": "2024-07-27 00:27:04 +0000"
+    },
+    "done": true
+  },
+  "lost_aether_content:recipes/misc/noble_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-07-27 00:27:04 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_pendant_repairing": {
+    "criteria": {
+      "has_zanite_pendant": "2024-07-27 00:43:31 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/enchanted_dart_shooter_enchanting": {
+    "criteria": {
+      "has_golden_dart_shooter": "2024-07-27 00:43:51 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_ring_repairing": {
+    "criteria": {
+      "has_zanite_ring": "2024-07-27 00:44:29 +0000"
+    },
+    "done": true
+  },
+  "aether:silver_dungeon": {
+    "criteria": {
+      "kill_valkyrie_queen": "2024-07-27 01:13:59 +0000"
+    },
+    "done": true
+  },
+  "aether_redux:obtain_grand_medal": {
+    "criteria": {
+      "obtain_grand_medal": "2024-07-27 01:13:59 +0000"
+    },
+    "done": true
+  },
+  "aether:valkyrie_loot": {
+    "criteria": {
+      "valkyrie_shovel": "2024-07-27 01:15:37 +0000"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/misc/stratus_smithing_template_from_gravitite": {
+    "criteria": {
+      "has_stratus_smithing_template": "2024-07-27 01:15:44 +0000"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/misc/stratus_smithing_template": {
+    "criteria": {
+      "has_stratus_smithing_template": "2024-07-27 01:15:44 +0000"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/decorations/stratus_ingot": {
+    "criteria": {
+      "has_sterling_aercloud": "2024-07-27 01:15:45 +0000"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/stratus_enchanting": {
+    "criteria": {
+      "has_sterling_aercloud": "2024-07-27 01:15:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-07-27 02:32:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-07-27 02:32:07 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_hamlet": {
+    "criteria": {
+      "nova_structures:hamlet": "2024-07-27 03:03:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2024-07-27 03:05:23 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flint_block_uncrafting": {
+    "criteria": {
+      "has_flint_block": "2024-07-27 06:59:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2024-07-27 08:05:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2024-07-27 08:05:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2024-07-27 08:05:58 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/dispenser_minecart": {
+    "criteria": {
+      "has_minecart": "2024-07-27 08:05:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2024-07-27 08:05:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2024-07-27 08:05:58 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_block_to_perl": {
+    "criteria": {
+      "has_ender_block": "2024-07-27 08:12:23 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_sword_repairing": {
+    "criteria": {
+      "has_netherite_sword": "2024-07-27 08:22:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall": {
+    "criteria": {
+      "has_polished_deepslate": "2024-07-28 01:20:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks": {
+    "criteria": {
+      "has_polished_deepslate": "2024-07-28 01:20:58 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:kill_harbinger": {
+    "criteria": {
+      "theharbinger": "2024-07-28 01:20:41 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_lantern": {
+    "criteria": {
+      "has_end_stone_brick_slab": "2024-07-28 01:42:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-07-28 01:20:58 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/purpur_pedestal": {
+    "criteria": {
+      "has_purpur_pillar": "2024-07-28 01:40:57 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:kill_ender_guardian": {
+    "criteria": {
+      "enderguardian": "2024-07-28 02:51:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-07-28 01:20:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2024-07-28 00:43:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs": {
+    "criteria": {
+      "has_polished_deepslate": "2024-07-28 01:20:58 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/purpur_lantern": {
+    "criteria": {
+      "has_purpur_slab": "2024-07-28 01:42:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-07-28 01:20:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2024-07-28 00:44:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-07-28 01:20:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-07-28 01:20:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_dried_kelp": "2024-07-28 00:18:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-07-28 01:20:58 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_ruined_citadel": {
+    "criteria": {
+      "citadel": "2024-07-28 01:58:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab": {
+    "criteria": {
+      "has_polished_deepslate": "2024-07-28 01:20:58 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_ingot_furnace_raw_blasting": {
+    "criteria": {
+      "has_item.betterend.thallasium_raw": "2024-07-28 01:57:10 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/kelp_roll": {
+    "criteria": {
+      "has_dried_kelp": "2024-07-28 00:18:09 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:kill_ender_golem": {
+    "criteria": {
+      "endergolem": "2024-07-28 02:04:06 +0000"
+    },
+    "done": true
+  },
+  "netherchested:recipes/decorations/nether_chest": {
+    "criteria": {
+      "has_nether_star": "2024-07-28 00:44:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-07-28 01:20:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-07-28 01:20:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-07-28 01:20:58 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_ancient_factory": {
+    "criteria": {
+      "factory": "2024-07-28 00:55:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-07-28 01:20:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-07-28 01:20:58 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_ingot_furnace_raw_smelting": {
+    "criteria": {
+      "has_item.betterend.thallasium_raw": "2024-07-28 01:57:10 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

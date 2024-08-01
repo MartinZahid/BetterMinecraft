@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "4e371419bee43dd89c40215507159f3f"
+	name: "SpacySlinky1#4e371419"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

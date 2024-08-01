@@ -1,0 +1,17 @@
+{
+	id: "4e371419-bee4-3dd8-9c40-215507159f3f"
+	type: "player"
+	player_name: "SpacySlinky1"
+	ranks: {
+		4e371419-bee4-3dd8-9c40-215507159f3f: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "SpacySlinky1"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFCA"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
