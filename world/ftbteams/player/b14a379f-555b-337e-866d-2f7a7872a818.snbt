@@ -2,9 +2,7 @@
 	id: "b14a379f-555b-337e-866d-2f7a7872a818"
 	type: "player"
 	player_name: "josebolillo"
-	ranks: {
-		b14a379f-555b-337e-866d-2f7a7872a818: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "josebolillo"
 		"ftbteams:description": ""
